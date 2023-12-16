@@ -1,0 +1,4 @@
+.env
+node_modules/
+package-lock.jsons
+mernbackend/node_modules/

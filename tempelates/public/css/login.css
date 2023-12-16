@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    margin-top: 20vh;
+    margin-bottom: 30px;
+
+}
+input{
+    font-size: 1rem;
+    width: 300px;
+    padding: 6px 2px; 
+    margin: 10px 0 10px 0;
+}
+.sub{
+    background-color:rgb(223, 155, 52);
+    cursor: pointer;
+}
+
+form{
+    text-align: center;
+    border: 5px solid rgb(111, 70, 23);
+    padding: 20px;
+    background-color: rgb(239, 192, 135);
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+
+    padding: 20px;
+    background: linear-gradient(#e66465, #9198e5);
+    background-color: rgb(239, 192, 135);
+    background: linear-gradient(#e66465, #9198e5);
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+.button-76 { 
+    background-color: #cf245f;
+    background-image:linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+    border:0;
+    border-radius:50px;
+    box-sizing: border-box;
+    color:#fff;
+    cursor: pointer;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.125rem; /* 18px */
+    font-weight:600;
+    line-height: 1.75rem; /* 28px */
+    padding: 1rem 1.25rem;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+  }
+  
+  .button-76:hover {
+    box-shadow: none;
+  }
+  
+  @media (min-width: 1024px) {
+    .button-76 {
+      font-size: 1.5rem; /* 24px 1rem 1.5rem;*/
+      padding:  1rem 1.5rem;
+      margin-bottom: 10px;
+      line-height: 2rem; /* 32px */
+    }
+  }
+  .sub {
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .sub {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sub:active {
+    transform: scale(0.95);
+  }
